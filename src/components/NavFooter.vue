@@ -1,13 +1,13 @@
 <template>
   <div class="footer">
     <div class="content-wrapper">
-      <div class="nav-button">
+      <div class="nav-button selected">
         <img class="icon" src="@/assets/timelapse.png" alt="" />
         <span>Timeslots</span>
       </div>
       <div class="nav-button">
         <img class="icon" src="@/assets/takeout.png" alt="" />
-        <span>My Orders</span>
+        <span>My Deliveries</span>
       </div>
       <div class="nav-button">
         <img class="icon" src="@/assets/info.png" alt="" />
@@ -35,6 +35,10 @@
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  font-size: 14px;
+}
+.content-wrapper .selected {
+  color: orange;
 }
 .nav-button {
   display: flex;
